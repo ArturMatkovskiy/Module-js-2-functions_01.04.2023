@@ -4,27 +4,27 @@
  для пошуку найменшого числа в масиві,
  * при умові що числа унікальні (не повторюються).
  */
-const findSmallesNumber = function (nambers) {
-    let cmolNumbers = numbers[0]
+// const findSmallesNumber = function (nambers) {
+//     let cmolNumbers = numbers[0]
 
-    for (const number of numbers) {
-        if (number < cmolNumber) {
-                cmolNumbers = number 
-            }
+//     for (const number of numbers) {
+//         if (number < cmolNumber) {
+//                 cmolNumbers = number 
+//             }
 
-    } 
+//     } 
     
-    return cmolNumbers
+//     return cmolNumbers
     
-    }
+//     }
     
 
 
 
 
-console.log(findSmallesNumber([3, 8, 12, -2, 15])); // -2
-console.log(findSmallesNumber([100, 54, 8, 12, 47])); // 8
-console.log(findSmallesNumber([7, 21, 84, 15, 4])); // 4
+// console.log(findSmallesNumber([3, 8, 12, -2, 15])); // -2
+// console.log(findSmallesNumber([100, 54, 8, 12, 47])); // 8
+// console.log(findSmallesNumber([7, 21, 84, 15, 4])); // 4
 
 // .............................
 // Задача №2

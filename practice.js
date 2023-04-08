@@ -9,18 +9,15 @@
 
 //     for (const number of numbers) {
 //         if (number < cmolNumber) {
-//                 cmolNumbers = number 
+//                 cmolNumbers = number
 //             }
 
-//     } 
+//     }
     
 //     return cmolNumbers
     
 //     }
     
-
-
-
 
 // console.log(findSmallesNumber([3, 8, 12, -2, 15])); // -2
 // console.log(findSmallesNumber([100, 54, 8, 12, 47])); // 8
@@ -46,14 +43,39 @@
 
 // function checkStorage(available, ordered) {
 //   let message;
-//   // Change code below this line
-
-//   // Change code above this line
+   
+//     if ( ardered > available ) {
+//        message = "Not enough goods in stock!"
+//     } else {
+//       message = "Order is processed, our manager will contact you."
+//     }
+    
 //   return message;
 // }
 
-// checkStorage(100, 50);
-// checkStorage(100, 130);
-// checkStorage(200, 20);
-// checkStorage(200, 150);
-// .............................
+// const checkStorage = (available, ardered) => {
+//    function checkStorage(available, ordered) {
+//   let message;
+   
+//     if ( ardered > available ) {
+//        message = "Not enough goods in stock!"
+//     } else {
+//       message = "Order is processed, our manager will contact you."
+//     }
+    
+//   return message;
+// }
+// }
+
+const checkStorage = (available, ardered) =>
+(ardered < available) ? "Not enough goods in stock!":"Order is processed, our manager will contact you."
+
+    
+const r1 = checkStorage(100, 50);
+console.log(r1);
+
+checkStorage(100, 50);
+checkStorage(100, 130);
+checkStorage(200, 20);
+checkStorage(200, 150);
+
